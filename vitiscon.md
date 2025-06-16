@@ -1,8 +1,9 @@
-# vitis 操作流程
+![image](https://github.com/user-attachments/assets/725ed2a9-36eb-4f07-8111-4549f649ff06)# vitis 操作流程
 
 ## 1. create platform component (Name and Location)
 
-   ![image](https://github.com/user-attachments/assets/fb6e22b8-06fc-4e48-8891-c07886457fe3)
+ ![image](https://github.com/user-attachments/assets/f2818b9f-7b3d-46ee-8ec5-19f7199f0074)
+
 
 ### >設定好文件名字和資料夾
 
@@ -16,33 +17,37 @@
 
 ## 3. create platform component (OS and Processor)
 
-![image](https://github.com/user-attachments/assets/a01fd460-ff8f-4bdf-b8c7-3d2c672a752b)
+![image](https://github.com/user-attachments/assets/36ceaec5-17fb-4b49-9ebd-c4b1dfb2977b)
+
 
 
 ### >設定處理器
 
 ## 4.create platform component (Summary)
+![image](https://github.com/user-attachments/assets/811b2e3b-6088-4cb4-afc9-7b4584b5ea00)
 
-![image](https://github.com/user-attachments/assets/459133e4-76c4-4651-900c-89f4aa66fedc)
 
 ### >finish
 
 ---
 ## 1. Empty Application
 
-![image](https://github.com/user-attachments/assets/f3d2d093-30ea-40b5-a3be-c702ec490e81)
+![image](https://github.com/user-attachments/assets/b2686dd1-bd99-421c-917f-fec473878ae7)
+
 
 ### >創建 Empty Application
 
 ## 2. Create Application Component (Name and Location)
 
-![image](https://github.com/user-attachments/assets/bc06153f-857f-42f2-bd9e-401dd5492f5d)
+![image](https://github.com/user-attachments/assets/6ba11999-e821-4c68-9777-d44c8b9a3458)
+
 
 ### >創建文件
 
 ## 3. Create Application Component (Hardware)
 
-![image](https://github.com/user-attachments/assets/1f8302cd-3af6-4c5f-94d4-29e335a0e8fd)
+![image](https://github.com/user-attachments/assets/932594fe-07bc-4823-ad4e-b0751f046be6)
+
 
 
 ### >Select Platform(ego-xz7)
@@ -50,20 +55,23 @@
 
 ## 4. Create Application Component (Domain)
 
-![image](https://github.com/user-attachments/assets/e35d0eb8-f48d-4d78-8b79-5ccb282f0bc2)
+![image](https://github.com/user-attachments/assets/b4a995ea-d54f-4e93-9330-1f590b179900)
+
 
 ### > 選擇standalone_microblaze_riscv_0
 
 ## 5. Create Application Component (Source File)
 
-![image](https://github.com/user-attachments/assets/79b12a81-5486-49af-bca3-68d833f324c9)
+![image](https://github.com/user-attachments/assets/4fd5b658-b975-44aa-97be-8cf9b8c9b2f0)
+
 
 
 ### > Next
 
 ## 6. Create Application Component (Summary)
 
-![image](https://github.com/user-attachments/assets/f0557d06-379e-4b2f-a91f-53d580416d75)
+![image](https://github.com/user-attachments/assets/010341ee-0a54-435a-b53e-da6ee5676673)
+
 
 ### > Finish
 
@@ -135,27 +143,33 @@ int main() {
 
 ### 3-1 將以上程式碼貼到hello.c
 
-![image](https://github.com/user-attachments/assets/50cc35f3-706f-46f4-aa6b-a8da23ce1bdd)
+![image](https://github.com/user-attachments/assets/9f94bbde-856d-4d70-9241-af863da17c58)
 
-> 對 empty_application執行build
+
+
+### > 對 empty_application執行build
 
 ![image](https://github.com/user-attachments/assets/624dac45-e0ff-4b88-a1fc-e727ec357600)
 
-> 確認有產生.elf檔案(很重要)
+### > 確認有產生.elf檔案(很重要)
 
-![image](https://github.com/user-attachments/assets/b6e653c0-f2c1-41e5-a297-f631926c1441)
+![image](https://github.com/user-attachments/assets/4c4a92a9-eca1-47e4-9473-aa5342317e62)
 
->按下run(右下角出現錯誤正常))
 
-![image](https://github.com/user-attachments/assets/12ffb604-f9cc-4fe6-9ea4-a60a47ccf59f)
+### >按下run(右下角出現錯誤正常))
 
-> 按下run確認板子有亮藍燈
+![image](https://github.com/user-attachments/assets/135bf156-9dd9-4a4c-8c35-67615132311d)
 
-![133242](https://github.com/user-attachments/assets/45d39ece-6814-429c-9a5d-c7b33371d66f)
+
+### > 按下run確認板子有亮藍燈
+
+![image](https://github.com/user-attachments/assets/197936b9-3024-4787-8740-7cd03a8e3a25)
+
 
 ### 3-2 啟動xsdb將.elf檔案載入到板子
 
-![image](https://github.com/user-attachments/assets/69b7a054-30a2-4d36-bf77-c18e28ac4cab)
+![image](https://github.com/user-attachments/assets/37d734b9-abfd-4cd4-a233-427c8af65c40)
+
 
 > vitis->XSDB console
 
@@ -165,7 +179,8 @@ int main() {
 xsdb% connect
 
 ```
-![image](https://github.com/user-attachments/assets/7e029e67-fb61-4e0e-955c-19c877c151be)
+![image](https://github.com/user-attachments/assets/235bc1ee-774e-4e29-8625-21cdf6673123)
+
 
 ```
 
@@ -173,7 +188,8 @@ xsdb% targets
 
 ```
 
-![image](https://github.com/user-attachments/assets/c659222b-0805-48a2-b4ea-5fe48a0e0110)
+![image](https://github.com/user-attachments/assets/5c6af8d3-d923-4d7e-a250-8c9b2bd02698)
+
 
 
 
@@ -194,9 +210,12 @@ https://youtu.be/5ZMqT0NsJ04
 
 ### 2單元測試(axi ip連接))
 
-![image](https://github.com/user-attachments/assets/74f2c34e-541b-427d-975c-080de367e4eb)
+![image](https://github.com/user-attachments/assets/82b1ea37-1fff-4be8-81f1-d26e0de2b03a)
 
-說明:利用microblaze v連接自訂義axi ip
+
+說明:利用microblaze v連接自定義axi ip
+
+
 
 
            
