@@ -156,7 +156,9 @@ int main() {
 
 ### > 對 empty_application執行build
 
-![image](https://github.com/user-attachments/assets/624dac45-e0ff-4b88-a1fc-e727ec357600)
+![image](https://github.com/user-attachments/assets/27a64fea-621e-4d59-b995-e23fc2fab2f0)
+
+
 
 ### > 確認有產生.elf檔案(很重要)
 
