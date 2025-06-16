@@ -222,7 +222,18 @@ https://youtu.be/5ZMqT0NsJ04
 ![image](https://github.com/user-attachments/assets/82b1ea37-1fff-4be8-81f1-d26e0de2b03a)
 
 
-### 說明:利用microblaze v連接自定義axi ip
+### 說明:利用microblaze v連接自定義AXI IP,AXI IP接收到資料啟動LED燈
+
+### Demo結果
+
+![133322](https://github.com/user-attachments/assets/90d90ff2-de8d-4923-bca3-f59fa9ee71ff)
+
+
+### 載入elf檔案到FPGA的RISCV核心
+
+![image](https://github.com/user-attachments/assets/1c07677c-2779-4c36-8f42-e4876fae495b)
+
+
 
 
 
