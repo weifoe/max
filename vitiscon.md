@@ -9,7 +9,8 @@
 
 ## 2. create platform component (Flow) 
 
-![image](https://github.com/user-attachments/assets/38645eca-c555-4fb3-b3dd-d9820e4ae99d)
+![image](https://github.com/user-attachments/assets/d1241abb-6909-4bad-b63c-8e9aea0269a4)
+
 
 
 
@@ -81,25 +82,31 @@
 
 ## 1. Build platform
 
-![image](https://github.com/user-attachments/assets/8af069e8-2c0a-4d8d-84e9-c2f4945c849a)
+![image](https://github.com/user-attachments/assets/da0fa002-bccb-44cc-8898-1ba321faef3c)
+
+
 
 ## 1.1 build platform 成功
 
 ### output 畫面確認build成功
 
-![image](https://github.com/user-attachments/assets/a927bcb6-8b5a-4bca-bb38-276f46b7b520)
+![image](https://github.com/user-attachments/assets/3d2843e3-20d8-435b-9184-163536d300df)
+
 
 
 ### 確認 empty_application的include資料夾有產生.h檔案
 
-![image](https://github.com/user-attachments/assets/23998ba8-c760-4e79-afda-b7e07cd472fd)
+![image](https://github.com/user-attachments/assets/09d9e63e-aec6-4c7b-910f-f962d234794d)
+
+
 
 ## 2 empty_application產生.c檔案
 
 ### 對src按右鍵->New File->輸入name.c(本說明手冊由於已產生hello.c所以已name.c舉例,以下說明都已hello.c為實作範例)->ok
 
 
-![image](https://github.com/user-attachments/assets/1f48eef3-7ad4-45cd-94c0-bf4e7d4b70ca)
+![image](https://github.com/user-attachments/assets/42d05556-301b-4267-8793-2e2c9f6100f8)
+
 
 ### 3 編寫 hello.c 
 
@@ -198,9 +205,9 @@ xsdb% targets 7
 xsdb% dow D:/xinlinx_205/project_3/newrisc(此專案資料夾名字)/empty_application/build/empty_application.elf(基本上elf檔案都在empty_application/build底下)
 
 ```
-以上指令執行後
+## 以上指令執行後
 
-結果會像此影片
+## 結果會像此影片
 
 https://youtu.be/5ZMqT0NsJ04
 
@@ -213,7 +220,7 @@ https://youtu.be/5ZMqT0NsJ04
 ![image](https://github.com/user-attachments/assets/82b1ea37-1fff-4be8-81f1-d26e0de2b03a)
 
 
-說明:利用microblaze v連接自定義axi ip
+### 說明:利用microblaze v連接自定義axi ip
 
 
 
