@@ -217,7 +217,7 @@ https://youtu.be/5ZMqT0NsJ04
 ---
 
 
-### 2單元測試(axi ip連接))
+### 2單元測試(AXI IP連接))
 
 ![image](https://github.com/user-attachments/assets/82b1ea37-1fff-4be8-81f1-d26e0de2b03a)
 
