@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/725ed2a9-36eb-4f07-8111-4549f649ff06)# vitis 操作流程
+# vitis 操作流程
 
 ## 1. create platform component (Name and Location)
 
