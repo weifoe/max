@@ -244,6 +244,11 @@ https://youtu.be/5ZMqT0NsJ04
 
 ![image](https://github.com/user-attachments/assets/024ef1a9-8644-438f-b3bc-598251a0fcae)
 
+### 2-1 ARM透過.C程式碼寫入BRAM
+
+![image](https://github.com/user-attachments/assets/d318b6f8-ee57-482e-9245-24fd439b7a00)
+
+
 
 
 
