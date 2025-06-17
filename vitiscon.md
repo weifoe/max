@@ -248,6 +248,23 @@ https://youtu.be/5ZMqT0NsJ04
 
 ![image](https://github.com/user-attachments/assets/d318b6f8-ee57-482e-9245-24fd439b7a00)
 
+> ### 紅框(輸出資料的BRAM地址)
+
+#### C程式碼定義的地址
+
+![image](https://github.com/user-attachments/assets/0e053cfd-41b1-4fb7-9a68-8fea1b1bc62d)
+
+#### C程式碼輸出的資料
+
+![image](https://github.com/user-attachments/assets/2358302f-85a5-4992-a270-14bf9a45dab3)
+
+
+#### Vitis memory
+
+![image](https://github.com/user-attachments/assets/bcf33139-8a78-4419-b176-a49281c23fc2)
+
+
+
 
 
 
