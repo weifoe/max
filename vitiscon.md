@@ -240,6 +240,11 @@ https://youtu.be/5ZMqT0NsJ04
 ![133322](https://github.com/user-attachments/assets/90d90ff2-de8d-4923-bca3-f59fa9ee71ff)
 
 
+### 2 雙CPU共用BRAM並控制讀寫功能
+
+![image](https://github.com/user-attachments/assets/024ef1a9-8644-438f-b3bc-598251a0fcae)
+
+
 
 
 
