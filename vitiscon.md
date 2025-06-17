@@ -217,21 +217,28 @@ https://youtu.be/5ZMqT0NsJ04
 ---
 
 
-### 2單元測試(AXI IP連接))
+### 1 單元測試(AXI IP連接))
 
-![image](https://github.com/user-attachments/assets/82b1ea37-1fff-4be8-81f1-d26e0de2b03a)
+![image](https://github.com/user-attachments/assets/efdfd3b6-74a3-43a5-9de6-31ee75268b33)
+
+### > 紅框為自定義的AXI IP
+
 
 
 ### 說明:利用microblaze v連接自定義AXI IP,AXI IP接收到資料啟動LED燈
+
+
+### 載入elf檔案到FPGA的RISCV核心(畫面為XSDB指令畫面)
+
+![image](https://github.com/user-attachments/assets/1c07677c-2779-4c36-8f42-e4876fae495b)
+
+### > 紅框為ELF檔案載入到RISCV核心編譯C程式
+
 
 ### Demo結果
 
 ![133322](https://github.com/user-attachments/assets/90d90ff2-de8d-4923-bca3-f59fa9ee71ff)
 
-
-### 載入elf檔案到FPGA的RISCV核心
-
-![image](https://github.com/user-attachments/assets/1c07677c-2779-4c36-8f42-e4876fae495b)
 
 
 
